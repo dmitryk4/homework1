@@ -1,0 +1,28 @@
+Homework 1 – Prithee
+UML (Text)
+
+Main
+- SONNET : String
++ main(String[])
+
+Responsibilities:
+- game loop
+- input/output
+- score tracking
+
+Main uses PritheeUtils
+
+-------------------------
+
+PritheeUtils
++ tokenizeForDisplay(String) : List<String>
++ tokenizeForAnswer(String)  : List<String>
++ normalize(String)          : String
++ buildPrompt(List, List, int) : String
++ pickNewIndex(Random, int, int) : int
+
+Responsibilities:
+- text processing
+- normalization
+- prompt construction
+- random index selection

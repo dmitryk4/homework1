@@ -1,0 +1,27 @@
+Homework 1 – Prithee
+Design Summary
+
+The program is split into two parts:
+
+Main.java
+- Controls the game loop.
+- Prints the sonnet prompt.
+- Reads user input.
+- Tracks correct and incorrect guesses.
+- Ends the game after 3 correct or 3 incorrect answers.
+
+PritheeUtils.java
+- Contains all non-interactive logic.
+- Tokenizes the sonnet text.
+- Normalizes words for comparison.
+- Selects a random missing-word index.
+- Builds the prompt with underscores.
+
+Design Choices
+- Logic is separated from user interaction so it can be unit tested.
+- Word comparison is case-insensitive and ignores punctuation.
+- Immediate repetition of the same missing word is avoided.
+
+Testing
+- JUnit tests target methods in PritheeUtils.
+- User input and full game flow are not unit tested.
