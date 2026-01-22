@@ -2,11 +2,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Homework 1 – Prithee
- *
- * Entry point and game loop.
- */
+
 public class Main {
 
     private static final String SONNET = """
